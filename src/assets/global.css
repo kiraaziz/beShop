@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set scrollbar width and color */
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #00000000;
+}
+
+/* Add scrollbar track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Add scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: white; /* Set thumb color to Tailwind zinc-900 */
+  border-radius: 10px;
+}
+
+/* On hover, change thumb color */
+::-webkit-scrollbar-thumb:hover {
+  background-color: white; /* Set hover color to Tailwind cool-gray-900 */
+}
+
+
+  @font-face {
+    font-family: f1;
+    src: url(./../font/Montserrat.ttf);
+  }
+  
+  body{
+    font-family: f1;
+  }
+
+  .cover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
